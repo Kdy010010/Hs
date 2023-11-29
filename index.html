@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>간단한 웹페이지</title>
+</head>
+<body>
+    <h1>간단한 웹페이지</h1>
+    
+    <div>
+        <button onclick="goToWrite()">글쓰기</button>
+        <button onclick="goToList()">글보기</button>
+        <button onclick="goToLogin()">로그인</button>
+    </div>
+
+    <script>
+        function goToWrite() {
+            window.location.href = 'github.com/Hs/issues/new';
+        }
+
+        function goToList() {
+            window.location.href = 'github.com/Hs?';
+        }
+
+        function goToLogin() {
+            window.location.href = 'login.html';
+        }
+    </script>
+</body>
+</html>
